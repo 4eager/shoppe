@@ -14,11 +14,14 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0;
+    /* border-right: 1px solid  grey; */
+    box-shadow: 0px 0px 2px;
   }
   .menu-bar ul{
     list-style: none;
     padding: 0px;
     text-align: left;
+    
     
   }
   .menu-bar ul li{
@@ -49,6 +52,9 @@ body {
   .menu-bar ul li.active{
     background-color:#2D1967;
   }
+  .menu-bar ul li:hover{
+    background-color: greenyellow;
+  }
   .menu-bar .active a{
     color: white;
   }
@@ -57,6 +63,9 @@ body {
     font-size: 29px;
     color: rgb(238, 10, 10);
     margin-right: 5px;
+  }
+  .menu-bar ul .active:hover{
+    background-color: #2D1967;
   }
   .menu-bar ul li i{
     margin-left: 15px;
